@@ -1,5 +1,5 @@
 # Website
-Official website for the Stockholm Startup Bootcamp 
+Official repo for the website of Stockholm Startup Bootcamp 
 
 Welcome to the Stockholm Startup Bootcamp Github page!
 
