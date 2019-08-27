@@ -1,0 +1,132 @@
+* {
+    font-family: "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.01rem;
+    line-height: 100%;
+    color: #48454F;
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+header {
+    min-height: 500px;
+    max-height: 500px;
+}
+
+h1 {
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: right;
+    letter-spacing: 0.01rem;
+    line-height: 100%;
+}
+
+h3 {
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.01rem;
+    line-height: 100%;
+    margin: 1rem 0;
+}
+
+h4 {
+    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Helvetica", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+    line-height: 100%;
+    margin: 1rem 0;
+}
+
+.info {
+    padding: 2rem 0;
+    letter-spacing: 0.07rem;
+    text-align: left;
+    margin: 2rem;
+    line-height: 1.2rem;
+}
+
+ul {
+    padding-left: 2rem;
+}
+
+header h1 {
+    position: relative;
+    transform: translateX(-25%) translateY(70%)
+}
+
+.partners {
+    background-color: #121113;
+    min-height: 300px;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.partners h4 {
+    color: #FAFAFA;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+}
+
+.partners img {
+    width: 100px;
+    margin: 2rem;
+}
+
+.call-to-action {
+    padding: 2rem;
+}
+
+.call-to-action+.call-to-action {
+    padding-top: 0;
+}
+
+.call-to-action+.info {
+    padding-top: 0;
+}
+
+.info+.call-to-action {
+    padding-top: 0;
+}
+
+.call-to-action p {
+    margin: 1rem 0;
+    line-height: 1.2rem;
+}
+
+.call-to-action div {
+    margin: 3rem 0;
+    text-align: right;
+}
+
+a.primary {
+    padding: 1rem;
+    background-color: #E87988;
+}
+
+a.secondary {
+    padding: 1rem;
+    background-color: #79CDE8;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #121113;
+    min-height: 300px;
+    color: #FAFAFA;
+    text-align: center;
+    padding: 1.5rem 0;
+}
