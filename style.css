@@ -3,7 +3,7 @@
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.01rem;
-    line-height: 100%;
+    line-height: 1.2rem;
     color: #48454F;
     margin: 0;
     padding: 0;
@@ -50,7 +50,7 @@ h4 {
     letter-spacing: 0.07rem;
     text-align: left;
     margin: 2rem;
-    line-height: 1.2rem;
+    line-height: 3rem;
 }
 
 ul {
