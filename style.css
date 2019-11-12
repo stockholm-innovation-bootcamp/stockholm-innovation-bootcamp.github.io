@@ -82,6 +82,11 @@ header h1 {
     margin: 2rem;
 }
 
+.first-link div {
+    margin: 3rem 0;
+    text-align: center;
+}
+
 .call-to-action {
     padding: 2rem;
 }
