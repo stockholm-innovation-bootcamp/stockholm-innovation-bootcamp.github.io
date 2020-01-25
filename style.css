@@ -76,6 +76,13 @@ header h1 {
     font-weight: 600;
     letter-spacing: 0.07rem;
 }
+.collaboration_partners h4 {
+  color: #FAFAFA;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.07rem;
+}
 .partners h5 {
   color: #FAFAFA;
   padding: 1rem 0;
@@ -84,6 +91,14 @@ header h1 {
   letter-spacing: 0.07rem;
   font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Helvetica", sans-serif;
 
+}
+.collaboration_partners h5 {
+  color: #FAFAFA;
+  padding: 1rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.07rem;
+  font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", "Helvetica", sans-serif;
 }
 
 .partners img {
@@ -94,13 +109,7 @@ header h1 {
   width: 10rem;
   margin:1rem;
 }
-.collaboration_partners h4 {
-  color: #FAFAFA;
-  padding: 1rem 0;
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: 0.07rem;
-}
+
 
 .first-link div {
     margin: 3rem 0;
@@ -144,14 +153,15 @@ a.secondary {
 }
 
 .content {
-    max-width: 800px;
+    max-width:800px;
     margin: 0 auto;
 }
+
 
 footer {
     background-color: #121113;
     min-height: 300px;
-    color: #FAFAFA;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1rem 0;
+    width: auto;
 }
