@@ -1,0 +1,13 @@
+Type,Host,Answer,TTL,Priority
+A,stockholminnovationbootcamp.com,185.199.108.153,600,
+A,stockholminnovationbootcamp.com,185.199.109.153,300,
+A,stockholminnovationbootcamp.com,185.199.110.153,300,
+A,stockholminnovationbootcamp.com,185.199.111.153,300,
+MX,stockholminnovationbootcamp.com,alt1.aspmx.l.google.com,3600,5
+MX,stockholminnovationbootcamp.com,alt2.aspmx.l.google.com,3600,5
+MX,stockholminnovationbootcamp.com,alt3.aspmx.l.google.com,3600,10
+MX,stockholminnovationbootcamp.com,alt4.aspmx.l.google.com,3600,10
+MX,stockholminnovationbootcamp.com,aspmx.l.google.com,3600,1
+TXT,stockholminnovationbootcamp.com,google-site-verification=Sx7155as64p5l6aHTkqXF83sgu26MQiyIhE3GRoGMnA,3600,
+TXT,stockholminnovationbootcamp.com,"v=spf1 include:_spf.google.com include:_spf.google.com ~all",3600,
+CNAME,www.stockholminnovationbootcamp.com,stockholminnovationbootcamp.com,300,
