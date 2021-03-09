@@ -191,7 +191,7 @@ h1 {
 .centered-2 {
 	position: absolute;
 	text-align: center;
-	top: 3%;
+	top: 7%;
 	font-family: 'Open Sans', sans-serif !important;
 	color: white !important;
 	font-size: 2.5vw !important;
@@ -204,4 +204,34 @@ h1 {
 	font-family: 'Open Sans', sans-serif !important;
 	font-size: 2.5vw !important;
 	font-weight: 700;
+}
+
+.user {
+	width: 7vw;
+}
+
+.opinion {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 1.7vw !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	line-height: 150% !important;
+}
+
+.opinion-lime {
+	color: #3bdd92;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 1.7vw !important;
+	line-height: 150% !important;
+}
+
+.logo-bottom {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.social-media-logo {
+	width: 3vw;
 }
