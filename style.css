@@ -147,8 +147,11 @@ h1 {
 .container-img {
 	object-fit: cover !important;
 	height: 90% !important;
-	width: 100vw;
-	padding: 0.5vw 1.5vw !important;
+	width: 90vw;
+}
+
+.container-img:hover {
+	border: 5px solid #3bdd92;
 }
 
 .img-overlay {
@@ -289,4 +292,28 @@ h1 {
 
 .par {
 	background: #070D14;
+}
+
+.news-date {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 2.5vw !important;
+	font-weight: 500;
+	line-height: 120% !important;
+	color: white !important;
+}
+
+.news-title {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 2.5vw !important;
+	font-weight: 600;
+	line-height: 120% !important;
+	color: #3bdd92;
+}
+
+.news-content {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 1.5vw !important;
+	font-weight: 600;
+	line-height: 120% !important;
+	color: white !important;
 }

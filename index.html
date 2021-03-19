@@ -106,9 +106,9 @@
 	<br/> <br/>
 	<div class="container-fluid">
 	  <div class="row">
-		<div class="col center-align">
-		  <t class="pros">Learn from the pro's!</t> <br/> <br/><br/>
-		  <t class="pros-desc">
+		<div class="col-6 center-align">
+		  <t id="cont-title" class="pros">Learn from the pro's!</t> <br/> <br/><br/>
+		  <t id="cont-desc" class="pros-desc">
 			Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit.
 			Nam rissu leo, auctor quis <br/> massa sit amet, iaculis tempus enim.
 			Nulla <br/> sed purus facilisis, hendrerit mi faucibus, <br/> faucibus nunc.
@@ -116,22 +116,22 @@
 		  <br/> <br/> <br/>
 		  <button type="button" class="button-tell-me-more">Tell me more!</button>
 		</div>
-		<div class="col">
+		<div class="col-6">
 		  <div class="container-fluid">
 			<div class="row">
-			  <div class="col-6">
-				<img alt="" src="assets/cont1-col2-cont2-row1-col1.PNG" class="container-img img-fluid"/>
+			  <div class="col-6 cont-over">
+				<img onclick="change_text(1)" alt="" src="assets/cont1-col2-cont2-row1-col1.PNG" class="container-img img-fluid"/>
 			  </div>
 			  <div class="col-6">
-				<img alt="" src="assets/cont1-col2-cont2-row1-col2.jpg" class="container-img img-fluid"/>
+				<img onclick="change_text(2)" alt="" src="assets/cont1-col2-cont2-row1-col2.jpg" class="container-img img-fluid"/>
 			  </div>
 			</div>
 			<div class="row">
 			  <div class="col-6">
-				<img alt="" src="assets/cont1-col2-cont2-row2-col1.jpg" class="container-img img-fluid"/>
+				<img onclick="change_text(3)" alt="" src="assets/cont1-col2-cont2-row2-col1.jpg" class="container-img img-fluid"/>
 			  </div>
 			  <div class="col-6">
-				<img alt="" src="assets/internet-hammarby.png" class="container-img img-fluid"/>
+				<img onclick="change_text(4)" alt="" src="assets/internet-hammarby.png" class="container-img img-fluid"/>
 			  </div>
 			</div>
 		  </div>
@@ -140,6 +140,7 @@
 	</div>
 
 	<br/> <br/> <br/> <br/> <br/>
+	
 	<!------------------- OPINIONS ------------------------->
 
 	<div class="image-box-2">
@@ -255,6 +256,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="scripts.js"></script>
   </body>
 
 </html>
