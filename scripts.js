@@ -1,19 +1,19 @@
 function change_text(pic){
 	if(pic == 1){
-		document.getElementById("cont-title").innerHTML = "First Picture";
-		document.getElementById("cont-desc").innerHTML = "Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit. Nam rissu leo, auctor quis <br/> massa sit amet, iaculis tempus enim. Nulla <br/> sed purus facilisis, hendrerit mi faucibus, <br/> faucibus nunc.";
+		document.getElementById("cont-title").innerHTML = "W";
+		document.getElementById("cont-desc").innerHTML = "Work with students from different backgrounds and fields of work to come up with a solution to your challenge";
 	}
 	if(pic == 2){
-		document.getElementById("cont-title").innerHTML = "Second Picture";
-		document.getElementById("cont-desc").innerHTML = "Different text, idk, someone should write this cause as far as you can see, I'm not good at writing text haha (not even funny)";
+		document.getElementById("cont-title").innerHTML = "Learn from the pro's!";
+		document.getElementById("cont-desc").innerHTML = "Our mentors will guide you during the challenge and provide important insights in innovation and business strategy";
 	}
 	if(pic == 3){
-		document.getElementById("cont-title").innerHTML = "Third Picture";
-		document.getElementById("cont-desc").innerHTML = "I assume no one pressed this tbh";
+		document.getElementById("cont-title").innerHTML = "Real problems, real solutions";
+		document.getElementById("cont-desc").innerHTML = "Our previous bootcamp resulted in solutions and cooperations that kept going even after the event";
 	}
 	if(pic == 4){
-		document.getElementById("cont-title").innerHTML = "Fourth Picture";
-		document.getElementById("cont-desc").innerHTML = "hackerman";
+		document.getElementById("cont-title").innerHTML = "Meet your new CO-founder";
+		document.getElementById("cont-desc").innerHTML = "The bootcamp is a great place to meet people from different diciplines and who knows, start the next unicorn together with";
 	}
 	
 }
