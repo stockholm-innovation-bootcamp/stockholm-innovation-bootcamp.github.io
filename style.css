@@ -321,3 +321,10 @@ h1 {
 .image-tint {
 	filter: brightness(70%);
 }
+
+.text-center-absolute {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
