@@ -329,16 +329,51 @@ h1 {
 }
 
 #consent-popup {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding: 2rem 8rem;
-	opacity: 1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	transition: display 1s ease;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: 700;
+	font-size: 2vw;
+}
+.hidden {
+    opacity: 0;
+	display:none;
+}
+
+.cookie-banner {
+	color: white !important;
+	background-color: #181E25;
+	text-align: center;
+	z-index: 1000;
+}
+
+
+.consent-button {
+	border: none;
+	font-family: 'Open Sans', sans-serif !important;
 	color: black;
-	background-color: white;
-	transition: opacity 1s ease;
-	&.hidden {
-		opacity: 0 !important;
-	}
+	padding: 0.5vw 1vw;
+	text-align: center;
+	align: center;
+	display: inline-block;
+	font-size: 1.5vw;
+	margin: 4px 2px;
+	cursor: pointer;
+	background-color: #3bdd92;
+	border-radius: 10px;
+	font-weight: 300;
+}
+
+.cookie-img {
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+	height: 50%;
+	object-fit: cover !important;
+	height: 90% !important;
+	width: 20vw;
+
 }

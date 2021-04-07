@@ -256,10 +256,26 @@ n	  window.dataLayer = window.dataLayer || [];
 		</div>
 	  </div>
 	</div>
-	<div id="consent-popup" class="hidden">
-	  <p>By using this website you agree to our <a href="">Terms and Conditions</a>.
-		Please <a id="accept" href="#"> Accept </a> these before using our website.
-	  </p>
+	
+	<div id="consent-popup" class="hidden cookie-banner">
+	  <div class="container-fluid">
+		<div class="row">
+		  <div class="col-4">
+			<img alt="" src="assets/cookie.jpeg" class="cookie-img"/>
+		  </div>
+		  <div class="col-8">
+			<br/>
+			Our website uses <t class="text-lime" style="font-size: 2vw !important;">cookies</t><br/>
+			<t style=" font-size: 1vw !important;">
+			  For more information about how we process data and why we <br/> are using cookies, please read the <a href="cookie.html">Cookie Policy</a> and the <a href="privacy.html">Privacy Policy</a></t>
+			<br/>
+			<br/>
+			<button type="button" class="consent-button" id="accept">Accept all cookies</button>
+			<br/>
+			<br/>
+		  </div>
+		</div>
+	  </div>
 	</div>
 
 	<footer>© Hailey 2021 - All rights are reserved</footer>
