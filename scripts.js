@@ -1,6 +1,6 @@
 function change_text(pic){
 	if(pic == 1){
-		document.getElementById("cont-title").innerHTML = "W";
+		document.getElementById("cont-title").innerHTML = "Work together!";
 		document.getElementById("cont-desc").innerHTML = "Work with students from different backgrounds and fields of work to come up with a solution to your challenge";
 	}
 	if(pic == 2){
