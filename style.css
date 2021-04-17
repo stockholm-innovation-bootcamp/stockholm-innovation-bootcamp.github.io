@@ -196,7 +196,7 @@ h1 {
 .centered-2 {
 	position: absolute;
 	text-align: center;
-	top: 7%;
+	top: 15%;
 	font-family: 'Open Sans', sans-serif !important;
 	color: white !important;
 	font-size: 2.5vw !important;
@@ -376,4 +376,41 @@ h1 {
 	height: 90% !important;
 	width: 20vw;
 
+}
+.centered-cookie {
+	position: absolute;
+	text-align: center;
+	top: 12%;
+	right: 5%;
+	color: white !important;
+}
+
+.collapsible {
+	background-color: #181E25;
+	color: white;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1vw;
+}
+
+.active, .collapsible:hover {
+	background-color: #555;
+}
+
+.content {
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	background-color: #181E25;
+}
+.bullet-point {
+	text-align: left !important;
+	position: absolute;
+	font-size: 2vw;
+	margin-left: -35vw;
+	font-weight: 300;	
 }
