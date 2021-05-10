@@ -393,12 +393,8 @@ h1 {
 	width: 100%;
 	border: none;
 	text-align: left;
-	outline: none;
-	font-size: 1vw;
-}
-
-.active, .collapsible:hover {
-	background-color: #555;
+	font-size: 1vw;	
+    outline: 0 !important;
 }
 
 .content {
@@ -413,4 +409,26 @@ h1 {
 	font-size: 2vw;
 	margin-left: -35vw;
 	font-weight: 300;	
+}
+
+.button-center{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.faq-text {
+	color: white;
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 2.5vw !important;
+	font-weight: 700;
+}
+
+.mail {
+	color: #3bdd92;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
